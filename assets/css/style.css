@@ -854,7 +854,7 @@ section {
 
 #imageDownload:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255,);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -931,6 +931,10 @@ cursor: zoom-in;
   margin-left: 200px;
 }
 
+.controlWebEpi{
+  margin-left: 50px;
+}
+
 .version{
   margin:auto;
   padding-left: 10px;
@@ -938,8 +942,16 @@ cursor: zoom-in;
 
 @media (max-width: 768px) {
   .controlWeb{
-    margin-left: 0;
+    margin: 50px 0 0 0;
     text-align: center;
+  }
+  .controlWebEpi{
+    margin: 0;
+    text-align: center;
+  }
+
+  .titleEpi{
+    margin-top: 50px;
   }
   .btn {
     padding: 10px 30px 10px 30px;
@@ -997,13 +1009,12 @@ cursor: zoom-in;
 }
 .close {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background: #606061;
 	color: #FFFFFF;
 	line-height: 25px;
 	position: absolute;
-	right: 10px;
+	right: 20px;
 	text-align: center;
-	top: 10px;
+	top: 20px;
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
